@@ -12,30 +12,4 @@ public class Cliente extends Persona {
 
     public Cliente() {
     }
-
-    public Cliente(int cc, char genero, String nombre, String apellido,String email, long numCelular) {
-        this.email = email;
-        this.numCelular = numCelular;
-    }
-
-    public String informacionCliente(){
-        String informacion = null;
-        return informacion;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public long getNumCelular() {
-        return numCelular;
-    }
-
-    public void setNumCelular(long numCelular) {
-        this.numCelular = numCelular;
-    }
 }
