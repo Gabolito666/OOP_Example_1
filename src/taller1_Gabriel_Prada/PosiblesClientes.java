@@ -13,6 +13,7 @@ public class PosiblesClientes {
 
     public PosiblesClientes(short maxcantPosiblesClientes) {
         //Bloque de código
+
     }
 
     public void incluirPosibleCiente(Cliente cliente, Vehiculo vehiculo){
