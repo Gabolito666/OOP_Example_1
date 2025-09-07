@@ -17,11 +17,14 @@ public class Llanta {
     }
 
     public Llanta(String fabricante, float alto, float ancho, float rin){
-
+        this.fabricante = fabricante;
+        this.alto = alto;
+        this.ancho = ancho;
+        this.rin = rin;
     }
 
     public String informacionLlanta(){
-        String informacion = null;
+        String informacion = "Fabricante: " + fabricante + ", Alto: " + alto + ", Ancho: " + ancho + ", Rin: " + rin;
         return informacion;
     }
 }

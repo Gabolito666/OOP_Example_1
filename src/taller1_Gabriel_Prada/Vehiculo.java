@@ -26,11 +26,19 @@ public class Vehiculo {
     }
 
     public void agregarLlanta(Llanta llanta){
-
+        if(this.cantLlantas < this.llantas.length){
+            this.llantas[this.cantLlantas] = llanta;
+            this.cantLlantas++;
+        } else {
+            System.out.println("No se pueden agregar más llantas.");
+        }
     }
 
     public String informacionVehiculo(){
-        String informacion = null;
+        String informacion = "Marca: " + marca + ", Modelo: " + modelo + ", Traccion: " + traccionDelTra + ", Cantidad de Llantas: " + cantLlantas + "\n";
+        for(int i = 0; i < cantLlantas; i++){
+            informacion += "  Llanta " + (i + 1) + ": " + llantas[i].informacionLlanta() + "\n";
+        }
         return informacion;
     }
 }
