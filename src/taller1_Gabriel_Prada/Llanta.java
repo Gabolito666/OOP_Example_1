@@ -1,5 +1,8 @@
 package taller1_Gabriel_Prada;
 
+// Clase Llanta
+// Atributos - Propiedades - Caracteristicas
+
 public class Llanta {
 
     protected String fabricante;

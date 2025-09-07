@@ -1,5 +1,7 @@
 package taller1_Gabriel_Prada;
 
+// Clase Cliente que hereda de Persona
+
 public class Cliente extends Persona {
 
     //Atributos - Propiedades - Caracteristicas

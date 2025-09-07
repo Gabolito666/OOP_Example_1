@@ -1,5 +1,8 @@
 package taller1_Gabriel_Prada;
 
+// Clase PosiblesClientes
+// Atributos - Propiedades - Caracteristicas
+
 public class PosiblesClientes {
 
     protected short cantPosiblesClientes;

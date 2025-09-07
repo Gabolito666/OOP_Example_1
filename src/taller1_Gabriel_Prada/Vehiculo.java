@@ -1,5 +1,8 @@
 package taller1_Gabriel_Prada;
 
+// Clase Vehiculo
+// Atributos - Propiedades - Caracteristicas
+
 public class Vehiculo {
 
     private String marca;

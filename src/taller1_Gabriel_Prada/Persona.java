@@ -1,5 +1,7 @@
 package taller1_Gabriel_Prada;
 
+// Base class representing a person
+
 public class Persona {
 
     private int cc;
