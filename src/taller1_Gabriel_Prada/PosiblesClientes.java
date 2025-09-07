@@ -15,7 +15,7 @@ public class PosiblesClientes {
 
 
     public PosiblesClientes(short maxcantPosiblesClientes) {
-        this.cantPosiblesClientes = 0;
+        this.cantPosiblesClientes = 1;
         this.listaCleintes = new Cliente[maxcantPosiblesClientes];
         this.listaVehiculos = new Vehiculo[maxcantPosiblesClientes];
     }
