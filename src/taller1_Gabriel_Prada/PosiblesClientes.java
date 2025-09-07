@@ -7,7 +7,7 @@ public class PosiblesClientes {
 
     protected short cantPosiblesClientes;
 
-    private Cliente listaCleintes [];
+    private Cliente listaClientes [];
 
     private Vehiculo listaVehiculos [];
 
@@ -16,13 +16,13 @@ public class PosiblesClientes {
 
     public PosiblesClientes(short maxcantPosiblesClientes) {
         this.cantPosiblesClientes = 1;
-        this.listaCleintes = new Cliente[maxcantPosiblesClientes];
+        this.listaClientes = new Cliente[maxcantPosiblesClientes];
         this.listaVehiculos = new Vehiculo[maxcantPosiblesClientes];
     }
 
     public void incluirPosibleCiente(Cliente cliente, Vehiculo vehiculo){
-        if(this.cantPosiblesClientes < this.listaCleintes.length){
-            this.listaCleintes[this.cantPosiblesClientes] = cliente;
+        if(this.cantPosiblesClientes < this.listaClientes.length){
+            this.listaClientes[this.cantPosiblesClientes] = cliente;
             this.listaVehiculos[this.cantPosiblesClientes] = vehiculo;
             this.cantPosiblesClientes++;
         } else {
@@ -33,7 +33,7 @@ public class PosiblesClientes {
     public void informacionPosiblesClientes(){
         for(int i = 0; i < this.cantPosiblesClientes; i++){
             System.out.println("Posible Cliente " + (i + 1) + ":");
-            System.out.println(this.listaCleintes[i].informacionCliente());
+            System.out.println(this.listaClientes[i].informacionCliente());
             System.out.println(this.listaVehiculos[i].informacionVehiculo());
             System.out.println("---------------------------");
         }
